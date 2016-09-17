@@ -4,7 +4,7 @@
 //
 //  Created by Kennan Mell on 9/17/16.
 //
-// Max was here 9/17/16
+//
 
 import UIKit
 
