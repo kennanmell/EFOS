@@ -12,6 +12,10 @@
 		222C18241D8DDFEA00EE81F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222C18221D8DDFEA00EE81F9 /* Main.storyboard */; };
 		222C18261D8DDFEA00EE81F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222C18251D8DDFEA00EE81F9 /* Assets.xcassets */; };
 		222C18291D8DDFEA00EE81F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222C18271D8DDFEA00EE81F9 /* LaunchScreen.storyboard */; };
+		222C18321D8F1EA600EE81F9 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222C18311D8F1EA600EE81F9 /* FBSDKCoreKit.framework */; };
+		222C18361D8F1EB500EE81F9 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222C18351D8F1EB500EE81F9 /* FBSDKShareKit.framework */; };
+		222C18371D8F207100EE81F9 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222C18331D8F1EAF00EE81F9 /* FBSDKLoginKit.framework */; };
+		222C18391D8F243900EE81F9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222C18381D8F243900EE81F9 /* Bolts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		222C18251D8DDFEA00EE81F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		222C18281D8DDFEA00EE81F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		222C182A1D8DDFEA00EE81F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222C18311D8F1EA600EE81F9 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		222C18331D8F1EAF00EE81F9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		222C18351D8F1EB500EE81F9 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		222C18381D8F243900EE81F9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222C18321D8F1EA600EE81F9 /* FBSDKCoreKit.framework in Frameworks */,
+				222C18361D8F1EB500EE81F9 /* FBSDKShareKit.framework in Frameworks */,
+				222C18371D8F207100EE81F9 /* FBSDKLoginKit.framework in Frameworks */,
+				222C18391D8F243900EE81F9 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +66,7 @@
 		222C181D1D8DDFEA00EE81F9 /* EFOS Volunteer */ = {
 			isa = PBXGroup;
 			children = (
+				222C18301D8F1E7D00EE81F9 /* Frameworks */,
 				222C181E1D8DDFEA00EE81F9 /* AppDelegate.swift */,
 				222C18201D8DDFEA00EE81F9 /* ViewController.swift */,
 				222C18221D8DDFEA00EE81F9 /* Main.storyboard */,
@@ -62,6 +75,17 @@
 				222C182A1D8DDFEA00EE81F9 /* Info.plist */,
 			);
 			path = "EFOS Volunteer";
+			sourceTree = "<group>";
+		};
+		222C18301D8F1E7D00EE81F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				222C18381D8F243900EE81F9 /* Bolts.framework */,
+				222C18351D8F1EB500EE81F9 /* FBSDKShareKit.framework */,
+				222C18331D8F1EAF00EE81F9 /* FBSDKLoginKit.framework */,
+				222C18311D8F1EA600EE81F9 /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +283,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7AN2C295R9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EFOS\\ Volunteer",
+					"$(PROJECT_DIR)/EFOS\\ Volunteer",
+					"$(PROJECT_DIR)/EFOS\\ Volunteer",
+					"$(PROJECT_DIR)/EFOS\\ Volunteer",
+					"$(PROJECT_DIR)/EFOS\\ Volunteer",
+				);
 				INFOPLIST_FILE = "EFOS Volunteer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.eastsidefriendsofseniors.EFOS-Volunteer";
@@ -272,6 +304,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7AN2C295R9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EFOS\\ Volunteer",
+					"$(PROJECT_DIR)/EFOS\\ Volunteer",
+					"$(PROJECT_DIR)/EFOS\\ Volunteer",
+					"$(PROJECT_DIR)/EFOS\\ Volunteer",
+					"$(PROJECT_DIR)/EFOS\\ Volunteer",
+				);
 				INFOPLIST_FILE = "EFOS Volunteer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.eastsidefriendsofseniors.EFOS-Volunteer";
