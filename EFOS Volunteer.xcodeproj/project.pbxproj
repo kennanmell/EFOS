@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		222C181F1D8DDFEA00EE81F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C181E1D8DDFEA00EE81F9 /* AppDelegate.swift */; };
-		222C18211D8DDFEA00EE81F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C18201D8DDFEA00EE81F9 /* ViewController.swift */; };
+		222C18211D8DDFEA00EE81F9 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C18201D8DDFEA00EE81F9 /* LoginController.swift */; };
 		222C18241D8DDFEA00EE81F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222C18221D8DDFEA00EE81F9 /* Main.storyboard */; };
 		222C18261D8DDFEA00EE81F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222C18251D8DDFEA00EE81F9 /* Assets.xcassets */; };
 		222C18291D8DDFEA00EE81F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222C18271D8DDFEA00EE81F9 /* LaunchScreen.storyboard */; };
@@ -16,12 +16,15 @@
 		222C18361D8F1EB500EE81F9 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222C18351D8F1EB500EE81F9 /* FBSDKShareKit.framework */; };
 		222C18371D8F207100EE81F9 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222C18331D8F1EAF00EE81F9 /* FBSDKLoginKit.framework */; };
 		222C18391D8F243900EE81F9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222C18381D8F243900EE81F9 /* Bolts.framework */; };
+		222C183E1D8F71C300EE81F9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C183D1D8F71C300EE81F9 /* LoginView.swift */; };
+		222C18401D8FB46900EE81F9 /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C183F1D8FB46900EE81F9 /* AccountController.swift */; };
+		222C18421D8FB47100EE81F9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C18411D8FB47100EE81F9 /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		222C181B1D8DDFEA00EE81F9 /* EFOS Volunteer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EFOS Volunteer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		222C181E1D8DDFEA00EE81F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		222C18201D8DDFEA00EE81F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		222C18201D8DDFEA00EE81F9 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		222C18231D8DDFEA00EE81F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		222C18251D8DDFEA00EE81F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		222C18281D8DDFEA00EE81F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +33,10 @@
 		222C18331D8F1EAF00EE81F9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		222C18351D8F1EB500EE81F9 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		222C18381D8F243900EE81F9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		222C183D1D8F71C300EE81F9 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		222C183F1D8FB46900EE81F9 /* AccountController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
+		222C18411D8FB47100EE81F9 /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		222C18441D973D2B00EE81F9 /* EFOS Volunteer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EFOS Volunteer-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +59,7 @@
 			children = (
 				222C181D1D8DDFEA00EE81F9 /* EFOS Volunteer */,
 				222C181C1D8DDFEA00EE81F9 /* Products */,
+				222C18441D973D2B00EE81F9 /* EFOS Volunteer-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,7 +76,9 @@
 			children = (
 				222C18301D8F1E7D00EE81F9 /* Frameworks */,
 				222C181E1D8DDFEA00EE81F9 /* AppDelegate.swift */,
-				222C18201D8DDFEA00EE81F9 /* ViewController.swift */,
+				222C183A1D8F3E0F00EE81F9 /* Controller */,
+				222C183B1D8F3E1400EE81F9 /* Model */,
+				222C183C1D8F3E1D00EE81F9 /* View */,
 				222C18221D8DDFEA00EE81F9 /* Main.storyboard */,
 				222C18251D8DDFEA00EE81F9 /* Assets.xcassets */,
 				222C18271D8DDFEA00EE81F9 /* LaunchScreen.storyboard */,
@@ -86,6 +96,31 @@
 				222C18311D8F1EA600EE81F9 /* FBSDKCoreKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		222C183A1D8F3E0F00EE81F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				222C183F1D8FB46900EE81F9 /* AccountController.swift */,
+				222C18201D8DDFEA00EE81F9 /* LoginController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		222C183B1D8F3E1400EE81F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		222C183C1D8F3E1D00EE81F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				222C18411D8FB47100EE81F9 /* AccountView.swift */,
+				222C183D1D8F71C300EE81F9 /* LoginView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +155,7 @@
 					222C181A1D8DDFEA00EE81F9 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 7AN2C295R9;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -160,8 +196,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222C18211D8DDFEA00EE81F9 /* ViewController.swift in Sources */,
+				222C183E1D8F71C300EE81F9 /* LoginView.swift in Sources */,
+				222C18211D8DDFEA00EE81F9 /* LoginController.swift in Sources */,
 				222C181F1D8DDFEA00EE81F9 /* AppDelegate.swift in Sources */,
+				222C18401D8FB46900EE81F9 /* AccountController.swift in Sources */,
+				222C18421D8FB47100EE81F9 /* AccountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7AN2C295R9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,6 +335,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.eastsidefriendsofseniors.EFOS-Volunteer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EFOS Volunteer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -303,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7AN2C295R9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -316,6 +359,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.eastsidefriendsofseniors.EFOS-Volunteer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EFOS Volunteer-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
